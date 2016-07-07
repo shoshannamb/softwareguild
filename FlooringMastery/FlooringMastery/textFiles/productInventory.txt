@@ -1,0 +1,5 @@
+ProductType,CostPerSquareFoot,LaborCostPerSquareFoot, SqFeetInStock
+Carpet,2.25,2.10,10000
+Laminate,1.75,2.10,10000
+Tile,3.50,4.15,10000
+Wood,5.15,4.75,10000

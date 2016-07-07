@@ -1,0 +1,5 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Foo Bar!+! Jr.,MS,7.07,Wood,291.0,5.15,4.75,1498.65,1382.25,203.68,3084.58
+2,Foo Bar,MI,6.0,Tile,5000.0,3.5,4.15,17500.0,20750.0,2295.0,40545.0
+3,Baz,IL,8.64,Laminate,750.0,1.75,2.1,1312.5,1575.0,249.48,3136.98
+4,Foo Bar Baz,OH,7.14,Carpet,7000.0,2.25,2.1,15750.0,14700.0,2174.13,32624.13

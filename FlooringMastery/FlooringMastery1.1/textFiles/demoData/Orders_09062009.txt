@@ -1,0 +1,20 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Kay H. Duncan,PA,0.84,Carpet,7.24,3.78,4.56,7.19,0.33,6.44,7.36
+*2,Igor R. Porter,IN,0.40,Laminate,9.88,4.85,4.17,4.68,3.19,4.41,9.96
+3,Francis Brewer,MA,0.35,Carpet,1.20,2.72,3.37,3.98,2.12,9.32,4.37
+4,Aurora Suarez,WA,0.08,Tile,7.44,4.88,4.05,0.01,3.44,0.22,2.14
+5,Geraldine Chan,OK,0.32,Wood,4.11,3.97,3.79,3.45,1.23,9.89,7.02
+6,Lyle Rocha,HI,0.93,Tile,2.55,3.89,2.46,2.24,7.54,4.64,4.50
+*7,Liberty Y. Silva,AR,0.88,Wood,7.83,4.22,3.12,7.86,6.64,0.19,8.73
+8,Quail B. Rowland,AK,0.75,Wood,2.81,2.67,3.24,5.81,3.95,3.65,4.77
+9,Kevyn Horn,KS,0.75,Carpet,8.77,2.30,2.93,9.04,1.05,0.62,6.45
+10,Brody Davis,MT,0.34,Tile,8.83,3.60,4.68,9.53,4.94,8.80,7.05
+*11,Blaine K. Lyons,HI,0.98,Laminate,7.39,4.97,2.95,0.26,8.99,4.42,8.14
+12,Stacy Valdez,MO,0.03,Laminate,2.96,4.88,4.47,8.08,5.30,1.61,5.18
+13,Maisie N. Craig,WI,0.14,Tile,0.06,4.74,2.58,7.99,9.24,1.97,6.01
+14,Idola O. Witt,ID,0.94,Carpet,0.36,3.82,3.41,7.79,9.62,3.01,4.08
+*15,Flavia P. Gill,MA,0.58,Wood,3.02,2.80,2.46,2.18,1.69,2.24,2.11
+16,Kylee F. Dean,KY,0.06,Wood,5.93,2.13,3.77,1.02,2.33,0.23,4.64
+17,Wynne Y. Jenkins,MI,0.61,Laminate,8.87,2.38,3.67,8.38,7.26,9.26,8.91
+18,Shelby Davis,CO,0.98,Laminate,5.73,3.27,4.31,1.68,3.56,1.50,0.88
+19,Lucius Y. Summers,WA,0.37,Tile,4.01,3.86,3.76,6.00,2.03,3.54,0.50

@@ -1,0 +1,35 @@
+Detailed schedule:
+**Make package and method skeleton. Everything throws NotSupportedException.
+**Write DTO classes.
+**Write DAO logic to populate DTO classes.
+**Build basic controller and menu logic + UI menu
+**Build display functionality
+	** DAO: read in file and store in data structure
+	** UI: Show information for single or multiple Order objects
+-Build add functionality
+	** Test and build Ops class
+	** UI: get information
+	** UI: verify method
+	** UI: error message
+	** ConsoleIO: parseDate
+	- InputFormatter: formatStates*
+	** DAO: test and build add functionality
+	- DAO: Save functionality
+-Build edit functionality	
+	- UI: Edit method
+	** UI: Order access info
+	** UI: verify method
+	** DAO: edit method
+-Build remove functionality
+	** DAO: build remove functionality
+
+
+General deadlines:
+6/28 (Tues)
+ -- method signatures and tests written
+6/29 (Wed)
+ -- All classes outside of the controller have their planned methods written and junit tested where applicable
+6/30 (Thurs)
+ -- Spring framework is properly set up to encapsulate all necessary beans and profiles.
+7/01 (Fri)
+ -- Controller written implementing the previously constructed classes and prepared dependency injections.

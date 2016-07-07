@@ -1,0 +1,95 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Barry Powell,AZ,0.75,Laminate,9.48,4.98,4.0,9.53,7.0,9.11,7.43
+2,Lyle Beard,TX,0.79,Wood,3.65,2.58,2.09,5.21,8.86,6.41,3.86
+3,Nigel H. Norman,MN,0.37,Tile,2.81,4.99,2.23,2.21,1.71,8.7,1.11
+4,Gareth Head,AK,0.11,Carpet,9.83,4.08,2.82,5.6,1.07,2.47,6.43
+5,Kevin D. Franco,WI,0.11,Wood,4.69,3.58,2.1,1.93,0.09,3.8,4.51
+*6,Idola Morales,CA,0.23,Wood,6.81,2.77,3.13,5.91,2.14,5.07,7.68
+7,Lillian Abbott,NV,0.94,Wood,1.12,3.06,4.43,1.46,5.65,3.7,8.97
+8,Neil Wright,OH,7.14,Tile,26.0,3.5,4.15,91.0,107.9,14.2,213.1
+9,Ann Holden,WA,0.42,Laminate,8.2,3.77,2.2,8.49,7.83,7.35,1.22
+10,Keith Little,MT,0.76,Carpet,5.87,4.0,3.47,7.21,7.57,4.07,2.19
+11,Brenna G. Barry,AR,0.41,Laminate,3.62,2.0,4.73,6.91,7.64,1.46,8.07
+*12,Kay H. Duncan,PA,0.84,Carpet,7.24,3.78,4.56,7.19,0.33,6.44,7.36
+13,Igor R. Porter,IN,0.4,Laminate,9.88,4.85,4.17,4.68,3.19,4.41,9.96
+14,Francis Brewer,MA,0.35,Carpet,1.2,2.72,3.37,3.98,2.12,9.32,4.37
+15,Aurora Suarez,WA,0.08,Tile,7.44,4.88,4.05,0.01,3.44,0.22,2.14
+16,Geraldine Chan,OK,0.32,Wood,4.11,3.97,3.79,3.45,1.23,9.89,7.02
+17,Lyle Rocha,HI,0.93,Tile,2.55,3.89,2.46,2.24,7.54,4.64,4.5
+18,Liberty Y. Silva,AR,0.88,Wood,7.83,4.22,3.12,7.86,6.64,0.19,8.73
+19,Quail B. Rowland,AK,0.75,Wood,2.81,2.67,3.24,5.81,3.95,3.65,4.77
+20,Kevyn Horn,KS,0.75,Carpet,8.77,2.3,2.93,9.04,1.05,0.62,6.45
+*21,Brody Davis,MT,0.34,Tile,8.83,3.6,4.68,9.53,4.94,8.8,7.05
+22,Blaine K. Lyons,HI,0.98,Laminate,7.39,4.97,2.95,0.26,8.99,4.42,8.14
+23,Stacy Valdez,MO,0.03,Laminate,2.96,4.88,4.47,8.08,5.3,1.61,5.18
+24,Maisie N. Craig,WI,0.14,Tile,0.06,4.74,2.58,7.99,9.24,1.97,6.01
+25,Idola O. Witt,ID,0.94,Carpet,0.36,3.82,3.41,7.79,9.62,3.01,4.08
+26,Flavia P. Gill,MA,0.58,Wood,3.02,2.8,2.46,2.18,1.69,2.24,2.11
+27,Kylee F. Dean,KY,0.06,Wood,5.93,2.13,3.77,1.02,2.33,0.23,4.64
+28,Wynne Y. Jenkins,MI,0.61,Laminate,8.87,2.38,3.67,8.38,7.26,9.26,8.91
+29,Shelby Davis,CO,0.98,Laminate,5.73,3.27,4.31,1.68,3.56,1.5,0.88
+30,Lucius Y. Summers,WA,0.37,Tile,4.01,3.86,3.76,6.0,2.03,3.54,0.5
+31,Eden D. Deleon,MS,0.15,Wood,8.18,3.27,2.14,1.49,6.77,2.71,3.44
+32,Nichole P. Carr,KY,0.9,Carpet,2.79,4.7,3.83,1.51,8.27,4.66,9.25
+33,Kasper Benjamin,IN,0.96,Wood,9.8,3.05,3.9,5.89,9.71,9.97,6.68
+34,Nell Benjamin,AZ,0.09,Wood,6.53,3.84,3.97,4.17,5.55,4.24,0.7
+*35,Whitney Mcclain,KS,0.33,Tile,7.46,3.24,3.79,0.56,3.82,0.25,3.46
+*36,Vladimir D. Mcgee,OK,0.0,Tile,6.07,3.64,2.31,7.81,5.22,9.0,2.55
+37,Kirk Mann,LA,0.82,Laminate,5.49,3.03,3.88,1.87,7.02,2.91,5.63
+38,Kato R. Jefferson,WY,0.74,Carpet,6.26,2.58,3.2,1.36,0.24,4.69,7.95
+39,Azalia Y. Tyler,WA,0.46,Wood,5.55,2.54,4.49,1.64,1.2,1.93,7.1
+40,Shelby F. Levine,GA,0.61,Laminate,8.02,2.62,2.61,6.13,9.59,0.34,5.44
+41,Jonah Rosario,IL,0.54,Tile,3.25,2.89,3.21,0.81,6.36,3.59,8.88
+42,Cheryl Roth,MN,0.24,Wood,4.65,4.22,3.55,9.96,8.0,7.07,5.19
+43,Lars Goodwin,MD,0.36,Wood,3.08,3.99,4.06,0.87,8.6,8.43,2.4
+44,Nora Q. Parks,MA,0.2,Wood,6.42,3.48,3.41,9.41,8.81,4.49,5.72
+45,Jacqueline B. Norton,WI,0.49,Wood,9.01,3.51,4.75,7.16,5.48,9.17,0.26
+46,Ivy Woodward,ME,0.36,Laminate,1.8,2.77,3.91,4.83,0.39,7.1,1.81
+47,Michelle Maxwell,CO,0.78,Laminate,4.73,3.76,3.05,0.69,3.93,6.76,0.89
+48,Rina Daugherty,MN,0.49,Tile,8.33,2.15,3.61,3.26,1.65,2.02,5.09
+49,Warren U. Scott,DE,0.89,Laminate,5.74,4.66,3.0,9.22,4.15,3.48,8.75
+50,Alan W. Peters,FL,0.66,Laminate,5.53,4.32,3.72,6.66,3.45,5.81,0.55
+51,Noel Q. Boyle,MA,0.98,Laminate,2.79,2.03,4.68,1.15,7.7,8.07,2.2
+52,Christen Gallagher,MN,0.12,Wood,2.48,4.66,4.87,3.98,1.56,7.52,3.24
+53,Orson Q. Reilly,TX,0.48,Carpet,3.85,2.99,4.08,3.18,4.63,9.47,1.45
+54,Stella X. Duffy,MI,0.95,Laminate,5.8,2.62,2.84,5.6,7.2,9.19,3.66
+55,Zachary Z. Hart,UT,0.34,Carpet,1.24,2.03,2.56,0.43,2.89,7.83,4.08
+*56,Warren B. Case,VA,0.09,Laminate,9.79,3.61,3.27,9.11,9.79,3.88,4.95
+*57,Hoyt Rivera,AL,0.57,Tile,4.3,2.97,3.91,5.62,7.8,1.19,0.86
+58,Hadley D. Coleman,MD,0.03,Laminate,9.4,2.25,3.64,0.22,7.97,8.75,2.14
+59,Kendall R. Clements,WY,0.09,Carpet,9.75,2.09,4.9,9.11,7.06,7.25,5.51
+60,Branden Livingston,AZ,0.85,Carpet,3.47,4.46,4.64,1.61,7.95,6.3,0.05
+61,Dean Branch,WY,0.14,Carpet,7.48,3.15,3.04,9.43,2.21,0.81,4.87
+62,Aidan J. Chambers,IA,0.4,Wood,8.37,2.52,4.26,0.85,2.1,7.11,4.97
+63,Ima Salas,ME,0.48,Carpet,9.32,4.24,3.18,3.96,3.64,4.29,5.73
+64,Darius J. Odom,OR,0.76,Wood,5.03,3.33,2.68,1.52,5.56,2.74,3.73
+65,Cassady Donovan,VA,0.84,Wood,0.4,3.61,3.79,9.14,3.09,4.78,5.57
+66,Wilma C. Nolan,DE,0.06,Laminate,4.85,2.13,3.53,3.75,6.08,2.57,9.86
+67,Yvette D. Snyder,FL,0.23,Wood,3.9,3.45,3.34,6.66,6.94,3.73,9.93
+68,Myles Hardy,WI,0.08,Carpet,7.35,3.32,4.04,4.22,9.42,4.35,8.26
+69,Fredericka X. Baxter,MA,0.68,Wood,5.07,4.12,2.29,2.23,3.3,0.67,5.65
+70,Ezekiel D. Wilson,IL,0.42,Tile,4.5,3.01,3.11,8.65,2.49,2.52,3.81
+71,Noelani Keller,KS,0.01,Tile,0.02,4.56,4.57,6.0,0.66,7.47,4.66
+72,Hannah Z. Armstrong,DE,0.82,Wood,0.28,2.5,4.48,1.75,6.88,6.48,2.07
+73,Illiana D. Pace,TX,0.45,Wood,5.37,2.42,4.93,9.72,5.36,5.38,0.79
+74,Rhiannon S. Browning,KY,0.97,Wood,3.77,4.19,4.52,0.86,8.26,3.46,5.1
+75,Moses N. Mercer,GA,0.65,Wood,8.94,3.48,2.79,9.12,6.68,9.14,8.08
+76,Neve Lindsey,WY,0.92,Tile,2.45,4.27,2.93,3.53,9.49,7.43,8.56
+*77,Bruce Bradley,OK,0.88,Carpet,0.94,4.68,4.78,5.7,6.39,9.74,4.12
+78,Quinlan T. Guzman,AK,0.99,Carpet,8.23,3.19,4.15,7.8,3.07,3.48,8.61
+79,Bruce White,AL,0.75,Carpet,0.35,4.53,4.32,9.84,4.11,2.93,0.47
+80,Stephanie D. Briggs,MA,1.0,Carpet,8.62,2.26,4.14,7.11,7.5,7.83,2.47
+81,Priscilla Cardenas,DE,0.59,Wood,3.53,4.88,3.28,2.08,5.33,3.78,9.44
+82,Mercedes K. Whitaker,WI,0.11,Laminate,5.1,2.7,4.22,7.55,0.72,5.87,8.89
+83,Valentine T. Reese,IA,0.33,Wood,5.81,4.47,3.55,9.44,6.71,4.27,6.98
+84,Athena Owens,MI,0.3,Laminate,6.6,4.87,4.98,1.61,5.9,8.32,7.49
+85,Denise Salazar,AZ,0.24,Carpet,4.77,4.97,4.9,5.78,5.43,7.79,9.86
+86,Allegra Q. Mcintyre,MD,0.5,Wood,8.01,4.84,3.21,5.34,9.01,2.23,5.74
+87,Asher Pacheco,PA,0.54,Wood,2.84,3.42,4.28,3.5,0.28,9.47,9.05
+88,Lydia Owen,FL,0.12,Laminate,4.08,4.7,3.75,0.03,6.06,1.38,5.1
+89,Mechelle Shepherd,CT,0.99,Carpet,4.6,3.94,3.59,0.15,5.75,8.96,6.16
+90,Cairo P. Hess,CA,0.15,Laminate,7.88,3.35,4.35,5.28,9.53,8.7,6.16
+91,Charles O. Randolph,KS,0.58,Laminate,2.99,2.93,2.33,9.55,3.09,6.36,0.93
+*92,Iliana X. Shepherd,AL,0.51,Tile,8.08,3.55,4.68,7.08,5.15,8.95,2.23
+*93,Brenna Stanton,IL,0.45,Tile,2.24,3.2,2.83,2.78,2.71,6.35,3.8
+*94,Kiayada N. Hughes,CT,0.13,Tile,3.01,4.56,4.6,7.15,4.02,9.31,1.31

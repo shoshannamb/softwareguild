@@ -1,0 +1,2 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+*1,Bellington,DC,5.75,Laminate,1.0E-100,1.75,2.1,0.0,0.0,0.0,0.0

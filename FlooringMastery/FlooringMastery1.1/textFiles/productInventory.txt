@@ -1,0 +1,8 @@
+ProductType,CostPerSquareFoot,LaborCostPerSquareFoot,SqFeetInStock
+*Laminate,1.75,2.1,14500.0
+Wood,5.15,4.75,9450.0
+Linoleum,0.5,0.75,5000.0
+Cork,2.75,2.1,2500.0
+Tile,3.5,3.75,49698.0
+Carpet,2.25,2.1,5000.0
+Bamboo,2.5,2.1,25000.0

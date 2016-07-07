@@ -1,0 +1,3 @@
+OrderNumber,CustomerName,State,TaxRate,ProductType,Area,CostPerSquareFoot,LaborCostPerSquareFoot,MaterialCost,LaborCost,Tax,Total
+1,Foo Bar,MI,6.0,Tile,270.0,3.5,3.75,945.0,1012.5,117.45,2074.95
+2,Foo Bar!+! Jr,MN,7.27,Tile,759.0,3.5,3.75,2656.5,2846.25,400.05,5902.8
