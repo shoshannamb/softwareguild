@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2016, 1:22:33 PM
+    Author     : apprentice
+*/
+
+.fa-film {
+    padding: 20px;
+    color: white;
+}
+
+.header > h1 {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 4em;
+}
+
+h2 {
+    color: #1abc9c;
+    text-align: center;
+}
+
+.form-horizontal {
+    margin-top: 20px;
+}
+
+.align-right{
+    float: right;
+}
+
+#dvd-list {
+    clear: both;
+    font-size: 1.2em;
+}
+
+.fa-pencil, .fa-times {
+    padding-left: 10px;
+}
