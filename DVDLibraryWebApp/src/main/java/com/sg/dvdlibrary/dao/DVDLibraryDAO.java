@@ -20,6 +20,6 @@ public interface DVDLibraryDAO {
     public void deleteDVD(int dvdID);
     public List<DVD> getDVDLibrary();
     public void edit(DVD toEdit);
-    public boolean saveProgress(String fileName);
-    public boolean loadLibrary(String fileName);
+    public boolean saveProgress();
+    public boolean loadLibrary();
 }

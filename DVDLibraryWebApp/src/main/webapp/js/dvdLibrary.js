@@ -19,57 +19,86 @@ $(document).ready(function () {
 //add button functionality
     $('#add-button').on('click', function () {
         event.preventDefault();
-        $.ajax({
-            type: 'POST',
-            url: 'dvd',
-            data: JSON.stringify({
-                title: $('#add-title').val(),
-                releaseYear: $('#add-year').val(),
-                mpaaRating: $('#add-rating').val(),
-                studio: $('#add-studio').val(),
-                director: $('#add-director').val(),
-                note: $('#add-notes').val()
-            }),
-            contentType: 'application/json; charset=utf-8',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            dataType: 'json'
-        }).success(function (data, status) {
-            // clear add form
-            $('#add-title').val('');
-            $('#add-year option:eq(0)').prop('selected', true);
-            $('#add-rating option:eq(2016)').prop('selected', true);
-            $('#add-studio').val('');
-            $('#add-director').val('');
-            $('#add-notes').val('');
-            loadDVDs();
-        });
+        if ($('#add-title').val() === "") {
+            $('#add-title-label').attr('class', 'hidden');
+            $('#add-title-warning').attr('class', 'warning');
+        } else {
+            $.ajax({
+                type: 'POST',
+                url: 'dvd',
+                data: JSON.stringify({
+                    title: $('#add-title').val(),
+                    releaseYear: $('#add-year').val(),
+                    mpaaRating: $('#add-rating').val(),
+                    studio: $('#add-studio').val(),
+                    director: $('#add-director').val(),
+                    note: $('#add-notes').val()
+                }),
+                contentType: 'application/json; charset=utf-8',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                dataType: 'json'
+            }).success(function (data, status) {
+                // clear add form and any validation errors
+                $('#add-title').val('');
+                $('#add-year option:eq(0)').prop('selected', true);
+                $('#add-rating option:eq(2016)').prop('selected', true);
+                $('#add-studio').val('');
+                $('#add-director').val('');
+                $('#add-notes').val('');
+                $('#add-title-warning').attr('class', 'hidden');
+                $('#add-title-label').removeClass('hidden');
+                $('#addValidationErrors').empty();
+                loadDVDs();
+            }).error(function (data, status) {
+                var errorDiv = $('#addValidationErrors');
+                errorDiv.empty();
+                $.each(data.responseJSON.fieldErrors, function (index, validationError) {
+                    errorDiv.append(validationError.message).append($('<br>'));
+                });
+            });
+        }
     });
 
     $('#edit-button').on('click', function () {
         event.preventDefault();
-        $.ajax({
-            type: 'PUT',
-            url: 'dvd/' + $('#edit-id').val(),
-            data: JSON.stringify({
-                title: $('#edit-title').val(),
-                releaseYear: $('#edit-year').val(),
-                mpaaRating: $('#edit-rating').val(),
-                studio: $('#edit-studio').val(),
-                director: $('#edit-director').val(),
-                note: $('#edit-notes').val()
-            }),
-            contentType: 'application/json; charset=utf-8',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            dataType: 'json'
-        }).success(function (data, status) {
-            loadDVDs();
-        });
+        if ($('#edit-title').val() === "") {
+            $('#edit-title-label').attr('class', 'hidden');
+            $('#edit-title-warning').attr('class', 'warning');
+        } else {
+            $.ajax({
+                type: 'PUT',
+                url: 'dvd/' + $('#edit-id').val(),
+                data: JSON.stringify({
+                    title: $('#edit-title').val(),
+                    releaseYear: $('#edit-year').val(),
+                    mpaaRating: $('#edit-rating').val(),
+                    studio: $('#edit-studio').val(),
+                    director: $('#edit-director').val(),
+                    note: $('#edit-notes').val()
+                }),
+                contentType: 'application/json; charset=utf-8',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                dataType: 'json'
+            }).success(function (data, status) {
+                $('#editModal').modal('toggle');
+                $('#edit-title-warning').attr('class', 'hidden');
+                $('#edit-title-label').removeClass('hidden');
+                $('#editValidationErrors').empty();
+                loadDVDs();
+            }).error(function (data, status) {
+                var errorDiv = $('#editValidationErrors');
+                errorDiv.empty();
+                $.each(data.responseJSON.fieldErrors, function (index, validationError) {
+                    errorDiv.append(validationError.message).append($('<br>'));
+                });
+            });
+        }
     });
 });
 

@@ -31,7 +31,7 @@ public class DVD {
     @Range(min = 1880, max = 2030)
     private String releaseYear;
 
-    @Pattern(regexp = "G|PG|PG-13|R|NC-17", message = "Please select a valid MPAA rating")
+    @Pattern(regexp = "G|PG|PG-13|R|NC-17|Not Rated", message = "Please select a valid MPAA rating")
     private String mpaaRating;
 
     @Length(max = 49, message = "'Director' must be less than 50 characters")

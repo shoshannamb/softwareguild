@@ -26,6 +26,7 @@ public class DVDLibraryController {
 
     @RequestMapping(value = {"/", "/home"}, method = RequestMethod.GET)
     public String displayHomePage() {
+        dao.loadLibrary();
         return "home";
     }
     

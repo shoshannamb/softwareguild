@@ -40,3 +40,17 @@ h2 {
 .fa-pencil, .fa-times {
     padding-left: 10px;
 }
+
+caption {
+    color: #1abc9c;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.warning {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}

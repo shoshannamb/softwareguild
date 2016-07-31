@@ -1,7 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="s" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -30,10 +26,13 @@
                 </div>
                 <div class="new-dvd-form col-md-6">
                     <h2>Add a New DVD</h2>
-                    <div id="validationErrors" class="warning bg-danger"></div>
+                    <div id="addValidationErrors" class="warning"></div>
                     <form class="form-horizontal" role="form">
                         <div class="form-group">
-                            <label for="add-title" class="col-md-4 control-label">*Title</label>
+                            <label for="add-title" class="col-md-4 control-label">
+                                <span id ="add-title-label">*Title</span>
+                                <span id="add-title-warning" class="hidden col-md-4 col-md-offset-1">Please enter a Title.</span>
+                            </label>
                             <div class="col-md-8">
                                 <input type="text" maxlength="50" id="add-title" class="form-control" placeholder="50 characters max"/>
                             </div>
@@ -138,8 +137,13 @@
                         </div>
                         <div class="modal-body">
                             <form class="form-horizontal" role="form">
+                                <div id="editValidationErrors" class="warning"></div>
                                 <div class="form-group">
-                                    <label for="edit-title" class="col-md-4 control-label">*Title</label>
+                                    <label for="edit-title" class="col-md-4 control-label">
+                                        <span id ="edit-title-label">*Title</span>
+                                        <span id="edit-title-warning" class="hidden col-md-4 col-md-offset-1">Please enter a Title.</span>
+                                    </label>
+                                    <p id="edit-title-warning" class="hidden">Please enter a title.</p>
                                     <div class="col-md-8">
                                         <input type="text" maxlength="50" id="edit-title" class="form-control" placeholder="50 characters max"/>
                                     </div>
@@ -184,7 +188,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-md-offset-4 col-md-8">
-                                        <button type="submit" id="edit-button" data-dismiss="modal" class="btn bg-primary">
+                                        <button type="submit" id="edit-button" class="btn bg-primary">
                                             Edit DVD
                                         </button>                                        
                                         <button type="button" class="btn btn-default" data-dismiss="modal">
